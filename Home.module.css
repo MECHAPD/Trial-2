@@ -1,0 +1,62 @@
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: url('/background.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial Black', Arial, sans-serif;
+  color: red;
+  text-align: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+  text-shadow: 2px 2px 5px black;
+  line-height: 1.2;
+}
+
+.logo {
+  margin: 25px 0;
+  width: 120px;       /* Adjust as needed */
+  height: 120px;
+  background: url('/background.jpg') no-repeat center center; /* Use same 2nd image for logo */
+  background-size: contain;
+  filter: drop-shadow(2px 2px 2px black);
+}
+
+.subtitle {
+  font-weight: 900;
+  font-size: 1.3rem;
+  margin: 12px 0 40px 0;
+  text-shadow: 1px 1px 3px black;
+  letter-spacing: 1.5px;
+}
+
+.registerBtn {
+  background-color: red;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 60px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: black;
+  box-shadow: 2px 2px 7px #9a0000;
+  transition: background-color 0.3s ease;
+}
+
+.registerBtn:hover {
+  background-color: darkred;
+  color: white;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Baselian Grip Battle</title>
+<style>
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body, html {
+    height: 100%;
+    font-family: 'Arial Black', Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+    color: red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 25px;
+    line-height: 1.2;
+  }
+
+  /* The red gear logo SVG as background */
+  .logo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 25px;
+    background: url('logo.png') no-repeat center center;
+    background-size: contain;
+    filter: drop-shadow(2px 2px 2px black);
+  }
+
+  p {
+    font-weight: 900;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px black;
+    margin-bottom: 50px;
+  }
+
+  button {
+    background-color: red;
+    color: black;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 7px #9a0000;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: darkred;
+    color: white;
+  }
+
+  /* Responsive text and button for small screens */
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 1rem;
+      margin-bottom: 30px;
+    }
+    .logo {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
+    }
+    button {
+      font-size: 1.2rem;
+      padding: 12px 50px;
+    }
+  }
+</style>
+</head>
+<body>
+
+  <h1>THE BASELIAN GRIP<br />BATTLE</h1>
+
+  <div class="logo"></div>
+
+  <p>ONLY THE STRONG HOLD THE CROWN.</p>
+
+  <button onclick="window.location.href='https://forms.gle/RenPparh1De8sSyJ7'">
+    REGISTER NOW
+  </button>
+
+</body>
+</html>
